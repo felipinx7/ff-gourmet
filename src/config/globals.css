@@ -1,0 +1,178 @@
+@import 'tailwindcss';
+
+:root {
+  /* Red */
+  --color-red-50: #fef2f2;
+  --color-red-100: #fee2e2;
+  --color-red-200: #fecaca;
+  --color-red-300: #fca5a5;
+  --color-red-400: #f87171;
+  --color-red-500: #ef4444;
+  --color-red-600: #dc2626;
+  --color-red-700: #b91c1c;
+  --color-red-800: #991b1b;
+  --color-red-900: #7f1d1d;
+
+  /* White */
+  --color-white-50: #ffffff;
+  --color-white-100: #fdfdfd;
+  --color-white-200: #fbfbfb;
+  --color-white-300: #f9f9f9;
+  --color-white-400: #f7f7f7;
+  --color-white-500: #f5f5f5;
+  --color-white-600: #f2f2f2;
+  --color-white-700: #eeeeee;
+  --color-white-800: #eaeaea;
+  --color-white-900: #e6e6e6;
+
+  /* Black */
+  --color-black-50: #f8f9fa;
+  --color-black-100: #f1f3f5;
+  --color-black-200: #e9ecef;
+  --color-black-300: #dee2e6;
+  --color-black-400: #ced4da;
+  --color-black-500: #adb5bd;
+  --color-black-600: #6c757d;
+  --color-black-700: #495057;
+  --color-black-800: #343a40;
+  --color-black-900: #212529;
+
+  --background: var(--color-white-50);
+  --foreground: var(--color-black-900);
+
+  /* Spacing */
+  --space-025: 0.125rem;
+  --space-050: 0.25rem;
+  --space-075: 0.375rem;
+  --space-100: 0.5rem;
+  --space-150: 0.75rem;
+  --space-200: 1rem;
+  --space-250: 1.25rem;
+  --space-300: 1.5rem;
+  --space-400: 2rem;
+  --space-500: 2.5rem;
+  --space-600: 3rem;
+  --space-800: 4rem;
+  --space-1000: 5rem;
+
+  /* Radius */
+  --radius-none: 0px;
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-full: 999px;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --color-red-50: var(--color-red-50);
+  --color-red-100: var(--color-red-100);
+  --color-red-200: var(--color-red-200);
+  --color-red-300: var(--color-red-300);
+  --color-red-400: var(--color-red-400);
+  --color-red-500: var(--color-red-500);
+  --color-red-600: var(--color-red-600);
+  --color-red-700: var(--color-red-700);
+  --color-red-800: var(--color-red-800);
+  --color-red-900: var(--color-red-900);
+
+  --color-white-50: var(--color-white-50);
+  --color-white-100: var(--color-white-100);
+  --color-white-200: var(--color-white-200);
+  --color-white-300: var(--color-white-300);
+  --color-white-400: var(--color-white-400);
+  --color-white-500: var(--color-white-500);
+  --color-white-600: var(--color-white-600);
+  --color-white-700: var(--color-white-700);
+  --color-white-800: var(--color-white-800);
+  --color-white-900: var(--color-white-900);
+
+  --color-black-50: var(--color-black-50);
+  --color-black-100: var(--color-black-100);
+  --color-black-200: var(--color-black-200);
+  --color-black-300: var(--color-black-300);
+  --color-black-400: var(--color-black-400);
+  --color-black-500: var(--color-black-500);
+  --color-black-600: var(--color-black-600);
+  --color-black-700: var(--color-black-700);
+  --color-black-800: var(--color-black-800);
+  --color-black-900: var(--color-black-900);
+
+  --font-sans: var(--font-poppins);
+  --font-display: var(--font-sora);
+
+  --spacing-025: var(--space-025);
+  --spacing-050: var(--space-050);
+  --spacing-075: var(--space-075);
+  --spacing-100: var(--space-100);
+  --spacing-150: var(--space-150);
+  --spacing-200: var(--space-200);
+  --spacing-250: var(--space-250);
+  --spacing-300: var(--space-300);
+  --spacing-400: var(--space-400);
+  --spacing-500: var(--space-500);
+  --spacing-600: var(--space-600);
+  --spacing-800: var(--space-800);
+  --spacing-1000: var(--space-1000);
+
+  --radius-none: var(--radius-none);
+  --radius-sm: var(--radius-sm);
+  --radius-md: var(--radius-md);
+  --radius-lg: var(--radius-lg);
+  --radius-xl: var(--radius-xl);
+  --radius-full: var(--radius-full);
+}
+
+@layer base {
+  body {
+    background: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-sans);
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: var(--font-display);
+    line-height: auto;
+    letter-spacing: 0%;
+  }
+
+  h1 {
+    font-size: 47.78px;
+  }
+  h2 {
+    font-size: 39.81px;
+  }
+  h3 {
+    font-size: 33.18px;
+  }
+  h4 {
+    font-size: 27.65px;
+  }
+  h5 {
+    font-size: 23.04px;
+  }
+  h6 {
+    font-size: 19.2px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+  .caption {
+    font-size: 13.33px;
+  }
+  .helper {
+    font-size: 11.11px;
+  }
+}
