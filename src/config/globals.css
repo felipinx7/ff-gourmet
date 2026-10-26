@@ -2,40 +2,40 @@
 
 :root {
   /* Red */
-  --color-red-50: #fef2f2;
-  --color-red-100: #fee2e2;
-  --color-red-200: #fecaca;
-  --color-red-300: #fca5a5;
-  --color-red-400: #f87171;
-  --color-red-500: #ef4444;
-  --color-red-600: #dc2626;
-  --color-red-700: #b91c1c;
-  --color-red-800: #991b1b;
-  --color-red-900: #7f1d1d;
+  --color-red-50: #fdf2f2;
+  --color-red-100: #f6cccc;
+  --color-red-200: #f2b2b2;
+  --color-red-300: #ee9999;
+  --color-red-400: #e98080;
+  --color-red-500: #e56666;
+  --color-red-600: #e14d4d;
+  --color-red-700: #dd3333;
+  --color-red-800: #d81a1a;
+  --color-red-900: #d40000;
 
   /* White */
   --color-white-50: #ffffff;
-  --color-white-100: #fdfdfd;
-  --color-white-200: #fbfbfb;
-  --color-white-300: #f9f9f9;
-  --color-white-400: #f7f7f7;
-  --color-white-500: #f5f5f5;
-  --color-white-600: #f2f2f2;
-  --color-white-700: #eeeeee;
-  --color-white-800: #eaeaea;
-  --color-white-900: #e6e6e6;
+  --color-white-100: #fefdfe;
+  --color-white-200: #fdfdfd;
+  --color-white-300: #fdfcfd;
+  --color-white-400: #fcfbfd;
+  --color-white-500: #fbfafc;
+  --color-white-600: #fbf9fb;
+  --color-white-700: #faf9fb;
+  --color-white-800: #faf8fb;
+  --color-white-900: #f9f7fa;
 
   /* Black */
-  --color-black-50: #f8f9fa;
-  --color-black-100: #f1f3f5;
-  --color-black-200: #e9ecef;
-  --color-black-300: #dee2e6;
-  --color-black-400: #ced4da;
-  --color-black-500: #adb5bd;
-  --color-black-600: #6c757d;
-  --color-black-700: #495057;
-  --color-black-800: #343a40;
-  --color-black-900: #212529;
+  --color-black-50: #f3f4f6;
+  --color-black-100: #e5e7eb;
+  --color-black-200: #d1d5db;
+  --color-black-300: #9ca3af;
+  --color-black-400: #6b7280;
+  --color-black-500: #4b5563;
+  --color-black-600: #374151;
+  --color-black-700: #1f2937;
+  --color-black-800: #111827;
+  --color-black-900: #000000;
 
   --background: var(--color-white-50);
   --foreground: var(--color-black-900);
@@ -134,6 +134,7 @@
     font-size: 16px;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    overflow: hidden;
   }
 
   h1,
