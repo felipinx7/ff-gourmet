@@ -101,8 +101,8 @@
   --color-black-800: var(--color-black-800);
   --color-black-900: var(--color-black-900);
 
-  --font-sans: var(--font-poppins);
-  --font-display: var(--font-sora);
+  --font-poppins: var(--font-poppins);
+  --font-sora: var(--font-sora);
 
   --spacing-025: var(--space-025);
   --spacing-050: var(--space-050);
@@ -130,12 +130,9 @@
   body {
     background: var(--background);
     color: var(--foreground);
-    font-family: var(--font-sans);
+    font-family: var(--font-poppins);
     font-size: 16px;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    overflow: hidden;
-  }
+    }
 
   h1,
   h2,
