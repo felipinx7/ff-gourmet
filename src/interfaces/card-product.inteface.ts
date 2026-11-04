@@ -1,6 +1,9 @@
-export interface CardProduct{
-    photo: string,
-    nameProduct: string,
-    priceProduct: number,
-    descriptionProduct: string
+import { StaticImageData } from "next/image";
+
+export interface CardProduct {
+  photo: StaticImageData;
+  nameProduct: string;
+  priceProduct: number;
+  descriptionProduct: string;
+  linkForWhatsApp: string
 }
