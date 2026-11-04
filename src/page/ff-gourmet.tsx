@@ -1,5 +1,6 @@
 import { fundoSecaoPrincipal } from '../assets/images';
 import Header from '../components/layout/header';
+import { Cardapio } from './section/cardapio';
 import Hero from './section/hero';
 
 export default function FFGourmet() {
@@ -14,6 +15,7 @@ export default function FFGourmet() {
         <section className="z-10 mt-0 flex w-[100%] max-w-[1280px] flex-col items-center justify-center">
           <Header />
           <Hero />
+          <Cardapio/>
         </section>
       </section>
     </section>
