@@ -1,6 +1,7 @@
 import { fundoSecaoPrincipal } from '../assets/images';
 import Header from '../components/layout/header';
 import { Cardapio } from './section/cardapio';
+import { Feedbacks } from './section/feedbacks';
 import Hero from './section/hero';
 
 export default function FFGourmet() {
@@ -16,6 +17,7 @@ export default function FFGourmet() {
           <Header />
           <Hero />
           <Cardapio/>
+          <Feedbacks/>
         </section>
       </section>
     </section>
