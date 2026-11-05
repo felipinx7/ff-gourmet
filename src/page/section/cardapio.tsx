@@ -5,7 +5,8 @@ import { TextProducts } from '@/src/constants/texts-product';
 
 export function Cardapio() {
   return (
-    <section className="flex w-full flex-col items-center justify-center gap-250 py-8 max-lg:flex-col">
+    <section className="flex w-full flex-col items-center justify-center gap-500 py-8 max-lg:flex-col">
+
       {/* container do textos  */}
       <div className="flex flex-col items-center justify-center">
         <h2 className="font-poppins w-full gap-100 text-start leading-12 font-bold max-lg:w-full max-md:w-auto max-md:text-[2rem] max-md:leading-9 md:text-left">
