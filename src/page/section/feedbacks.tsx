@@ -18,7 +18,7 @@ export function Feedbacks() {
 
       {/* container dos cards de feedbacks */}
       <div className="carrosel flex h-auto w-full flex-col gap-200 overflow-hidden">
-        <div className="flex w-max gap-200 trilho-esquerda">
+        <div className="trilho-esquerda flex w-max gap-200">
           {TextFeedbacks.map((card, index) => (
             <CardFeedbacks {...card} key={`original-${index}`} />
           ))}
@@ -29,7 +29,7 @@ export function Feedbacks() {
             </div>
           ))}
         </div>
-        <div className="flex w-max gap-200 trilho-direita">
+        <div className="trilho-direita flex w-max gap-200">
           {TextFeedbacks.map((card, index) => (
             <CardFeedbacks {...card} key={`direita-original-${index}`} />
           ))}

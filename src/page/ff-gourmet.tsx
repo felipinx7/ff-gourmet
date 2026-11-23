@@ -3,6 +3,7 @@ import Header from '../components/layout/header';
 import { Cardapio } from './section/cardapio';
 import { Feedbacks } from './section/feedbacks';
 import Hero from './section/hero';
+import { Localizacao } from './section/localizacao';
 
 export default function FFGourmet() {
   return (
@@ -16,8 +17,9 @@ export default function FFGourmet() {
         <section className="z-10 mt-0 flex w-[100%] max-w-[1280px] flex-col items-center justify-center">
           <Header />
           <Hero />
-          <Cardapio/>
-          <Feedbacks/>
+          <Cardapio />
+          <Feedbacks />
+          <Localizacao />
         </section>
       </section>
     </section>
